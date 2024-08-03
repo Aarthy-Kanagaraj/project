@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: azure;
+    text-align: center;
+
+}
+.para1{
+    align-items:normal;
+    text-align:center;
+    padding: 20px 100px;
+    margin: 10px 100px;
+
+
+}
+.para{
+    margin: 10px 10px;
+    padding: 20px 10px;
+    
+}
+.para2{
+    margin: 10px 10px;
+    padding: 20px 10px;
+   
+}

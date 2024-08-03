@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color:white;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    
+}
+body{
+    align-items: center;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background:aliceblue;
+}
+.image{
+    size-adjust: 10px;
+    text-decoration: none;
+    size-adjust:  10px 10px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.para{
+    margin: 10px;
+}
+.showmore{
+    margin: 10px;
+}
