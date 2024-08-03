@@ -1,0 +1,128 @@
+*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
+}
+
+.active {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  border-left:1px solid black;
+  outline: black;
+
+}
+.active:hover{
+    background-color: rgb(132, 235, 229);
+
+}
+h2{
+  text-align:center;
+  padding:  10px 50px;
+  width: 1;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:' Poppins', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    background-color:#24262b;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul{
+    list-style: none;
+
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #24262b;
+    padding: 70px 0;
+
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #24262b;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+    
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+
+}
+.footer-col .social-links a{
+    display:inline-block ;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px 3px 0;
+    text-transform: capitalize;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    color: #bbbbbb;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    
+}
